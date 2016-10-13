@@ -18,7 +18,6 @@ int leftDirPinB = 4;
 int leftSpeedPin = 2;
 
 void setup() {
-  doStuff(5);
   //set baud rate
   Serial.begin(9600);
   // initialize the pushbutton pin as an input:
